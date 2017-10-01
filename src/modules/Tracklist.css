@@ -1,0 +1,30 @@
+.m-tracklist {
+    margin: 50px 0;
+    font-size: 16px;
+}
+
+.m-tracklist tr td {
+    padding: 5px 0;
+}
+
+.a-tracklist-item__mix-version {
+    display: none;
+}
+
+.a-tracklist-item__duration {
+    display: none;
+}
+
+.a-tracklist-item__title {
+    font-weight: 800;
+}
+
+.a-tracklist-item__duration {
+    font-size: 11px;
+    line-height: 16px;
+    opacity: 0.5;
+}
+
+.a-tracklist-item__artist {
+    opacity: 0.8;
+}

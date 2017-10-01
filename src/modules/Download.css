@@ -1,0 +1,9 @@
+.m-download .a-exceeded {
+    margin: 20px;
+    font-size: 14px;
+    color: #d84315;
+}
+
+.m-download .a-download__note {
+    color: #fbc02d;
+}

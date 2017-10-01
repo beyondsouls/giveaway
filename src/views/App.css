@@ -1,0 +1,52 @@
+.t-app {
+    padding: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.t-logo {
+    max-width: 300px;
+    margin: 30px auto;
+}
+
+.t-app > h1 {
+    font-size: 28px;
+    text-align: center;
+    margin: 20px;
+}
+
+.t-app > p,
+.t-app > div > p {
+    margin: 10px 0;
+    font-size: 12px;
+    text-align: center;
+}
+
+.a-download {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 1px;
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.a-download-wrapper {
+    display: block;
+    text-align: center;
+}
+
+@media all and (min-width: 280px) {
+    .a-tracklist-item__duration {
+        display: initial;
+    }
+}
+
+@media all and (min-width: 450px) {
+    .a-tracklist-item__mix-version {
+        display: initial;
+    }
+}
