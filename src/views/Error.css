@@ -1,0 +1,15 @@
+.t-error {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.t-error h2 {
+    color: #fbc02d;
+    font-size: 22px;
+    margin: 0 0 20px 0;
+}
+
+.t-error a {
+    color: #fbc02d;
+}
