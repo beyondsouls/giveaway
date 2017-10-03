@@ -18,6 +18,7 @@ class Download extends Component {
 
     render() {
         const { url, exceededText, downloadTitle } = this.props;
+        console.log(this.exceeded);
 
         return (
             <div className="m-download">

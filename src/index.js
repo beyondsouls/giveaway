@@ -8,8 +8,6 @@ import './index.css';
 import AppView from './views/App';
 import ErrorView from './views/Error';
 
-import registerServiceWorker from './registerServiceWorker';
-
 ReactDOM.render(
     <BrowserRouter>
         <Switch>
@@ -19,5 +17,3 @@ ReactDOM.render(
     </BrowserRouter>,
     document.getElementById('root')
 );
-
-registerServiceWorker();

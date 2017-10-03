@@ -31,7 +31,7 @@ class App extends Component {
                 <Download
                     showcase={showcase}
                     code={code}
-                    exceededText={data.exceeded.text}
+                    exceededText={data.exceeded.description}
                     url={data.download.url}
                     downloadTitle={data.download.title}
                 />
